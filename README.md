@@ -1,4 +1,4 @@
-Mitre
+Hedwig
 ========
 
 Abstraction Layer around Email Lists

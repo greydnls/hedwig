@@ -14,3 +14,18 @@ Hedwig is meant to abstract away Mailing List providers.
 **Main Objects in Use**
   * List
   * ListMember
+  
+**API**
+
+```php 
+$newsletter = Hedwig::create('mailchimp'); 
+
+$user = new Listmember();
+
+$campaign = $newsletter->findCampaign('some_campaign');
+
+$campaign->subscribe($user);
+
+$campaign->unsubscribe($user);
+
+```
